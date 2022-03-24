@@ -61,7 +61,7 @@ ddk = ""
 
 que = {}
 
-SMEX_USERS = [1904312233]
+SMEX_USERS = [2134019120]
 for x in SUDO:
     SMEX_USERS.append(x)
 
@@ -724,7 +724,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None)
         end = datetime.now()
         ms = (end - start).microseconds / 1000
-        await event.edit(f"👅PONG!\n`{ms}` ms\n 🖤SH4DOW SPAMBOT 🖤")
+        await event.edit(f"👅PONG!\n`{ms}` ms\n 😈𝙐𝙏𝙆𝘼𝙍𝙎𝙃 𝙁𝙐𝘾𝙆 𝘽𝙊𝙏🤧 ")
 
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -797,7 +797,7 @@ async def restart(e):
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 async def help(e):
     if e.sender_id in SMEX_USERS:
-        text = "[ 𝐒𝐇4𝐃𝐎𝐖 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 ]\n\n𝐒𝐓𝐀𝐑𝐓 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.ping\n.restart\n\n𝐉𝐎𝐈𝐍 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.join\n.pjoin\n.leave\n\n𝐒𝐏𝐀𝐌 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.spam\n.delayspam\n.bigspam\n.replyraid\n.dreplyraid\n\n𝐒𝐂𝐑𝐀𝐏 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.scrap\n\n𝐅𝐎𝐑 𝐍𝐄𝐄𝐃 𝐀𝐍𝐘 𝐇𝐄𝐋𝐏 𝐀𝐁𝐎𝐔𝐓 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 𝐉𝐎𝐈𝐍 @SH4DOW_SPAMBOT_SUPPORT"
+        text = "[ 𝙐𝙏𝙆𝘼𝙍𝙎𝙃 𝙋𝘼𝙋𝘼 🖤 ]\n\n𝙎𝙏𝘼𝙍𝙏 𝘾𝙈𝘿:\n.ping\n.restart\n\n𝙅𝙊𝙄𝙉 𝘾𝙈𝘿:\n.join\n.pjoin\n.leave\n\n𝙎𝙋𝘼𝙈 𝘾𝙈𝘿:\n.spam\n.delayspam\n.bigspam\n.replyraid\n.dreplyraid\n\n𝙎𝘾𝙍𝘼𝙋 𝘾𝙈𝘿(𝙬𝙤𝙧𝙠 𝙤𝙣𝙡𝙮 𝙞𝙣 𝙞𝙙𝙨):\n.scrap\n\n𝙁𝙊𝙍 𝘼𝙉𝙔 𝙃𝙀𝙇𝙋 😉 @PAPA_UTKARSH"
         await e.reply(text, parse_mode=None, link_preview=None)
 
 
@@ -977,11 +977,11 @@ async def get_users(event):
     else:
         hell = await eor(event, "`processing...`")
     he_ll = event.pattern_match.group(1)
-    if he_ll == "@FIGHTERS_KA_ADDA":
+    if he_ll == "@about_papa":
         return await hell.edit("Restricted to invite users from there.")
-    elif he_ll == "@FIGHTERS_KA_ADDA":
+    elif he_ll == "@about_papa":
         return await hell.edit("Restricted to invite users from there.")
-    elif he_ll == "@FIGHTERS_KA_ADDA":
+    elif he_ll == "@about_papa":
         return await hell.edit("Restricted to invite users from there.")
     kraken = await get_chatinfo(event)
     chat = await event.get_chat()
@@ -1018,7 +1018,7 @@ text = """ """
 print(text)
 print("")
 print(
-    "CONGRATULATIONS 🥳🥳..UR Spam Bots Ready to use"
+    "𝙔𝙊𝙊 𝙈𝙊𝙏𝙃𝙀𝙍 𝙁𝘼𝙏𝙃𝙀𝙍🤧 𝙐𝙍 𝙎𝙋𝘼𝙈 𝘽𝙊𝙏 𝘼𝙍𝙀 𝙍𝙀𝘼𝘿𝙔 𝙏𝙊 𝙐𝙎𝙀🤯"
 )
 if len(sys.argv) not in (1, 3, 4):
     try:
