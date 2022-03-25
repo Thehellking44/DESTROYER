@@ -724,7 +724,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None)
         end = datetime.now()
         ms = (end - start).microseconds / 1000
-        await event.edit(f"👅PONG!\n`{ms}` ms\n 😈𝙐𝙏𝙆𝘼𝙍𝙎𝙃 𝙁𝙐𝘾𝙆 𝘽𝙊𝙏🤧 ")
+        await event.edit(f"🖤𝙍𝙀𝘼𝘿𝙔 𝙁𝙊𝙍 𝙎𝙀𝙈𝙓\n`{ms}` ms\n 😈𝙎𝙀𝙈𝙓 𝘽𝙊𝙏🤧 ")
 
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -739,7 +739,7 @@ async def ping(e):
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\nBOTS WILL RESTART IN ONE 🕜 MINUTE..."
+        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\n𝘾𝙊𝙉𝘿𝙊𝙈🥵 𝙇𝘼𝙂𝘼𝙉𝙀 𝘿𝙀 𝘽𝙊𝙎𝘼𝘿𝙄𝙆𝙀🤯"
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await idk.disconnect()
@@ -797,7 +797,7 @@ async def restart(e):
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 async def help(e):
     if e.sender_id in SMEX_USERS:
-        text = "[ 𝙐𝙏𝙆𝘼𝙍𝙎𝙃 𝙋𝘼𝙋𝘼 🖤 ]\n\n𝙎𝙏𝘼𝙍𝙏 𝘾𝙈𝘿:\n.ping\n.restart\n\n𝙅𝙊𝙄𝙉 𝘾𝙈𝘿:\n.join\n.pjoin\n.leave\n\n𝙎𝙋𝘼𝙈 𝘾𝙈𝘿:\n.spam\n.delayspam\n.bigspam\n.replyraid\n.dreplyraid\n\n𝙎𝘾𝙍𝘼𝙋 𝘾𝙈𝘿(𝙬𝙤𝙧𝙠 𝙤𝙣𝙡𝙮 𝙞𝙣 𝙞𝙙𝙨):\n.scrap\n\n𝙁𝙊𝙍 𝘼𝙉𝙔 𝙃𝙀𝙇𝙋 😉 @PAPA_UTKARSH"
+        text = "[🤍𝙅𝙐𝙎𝙏 𝙁𝙐𝘾𝙆 𝙉𝘿 𝙁𝙇𝙔🖤]\n\n𝙎𝙏𝘼𝙍𝙏 𝘾𝙈𝘿:\n.ping\n.restart\n\n𝙅𝙊𝙄𝙉 𝘾𝙈𝘿:\n.join\n.pjoin\n.leave\n\n𝙎𝙋𝘼𝙈 𝘾𝙈𝘿:\n.spam\n.delayspam\n.bigspam\n.replyraid\n.dreplyraid\n\n𝙎𝘾𝙍𝘼𝙋 𝘾𝙈𝘿(𝙬𝙤𝙧𝙠 𝙤𝙣𝙡𝙮 𝙞𝙣 𝙞𝙙𝙨):\n.scrap {grp username}\n\n𝙋𝘼𝙈𝙋𝘼- @PAPA_UTKARSH"
         await e.reply(text, parse_mode=None, link_preview=None)
 
 
